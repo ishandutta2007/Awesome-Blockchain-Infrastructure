@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0e14" />
+      <stop offset="50%" stop-color="#121824" />
+      <stop offset="100%" stop-color="#0b0e14" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7f00ff" />
+      <stop offset="100%" stop-color="#e100ff" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0"/>
+    </radialGradient>
+    
+    <style>
+      .pulse-node {
+        animation: pulse 3s infinite ease-in-out;
+      }
+      .pulse-node-delayed {
+        animation: pulse 3s infinite ease-in-out;
+        animation-delay: 1.5s;
+      }
+      .glow-line {
+        stroke-dasharray: 10 200;
+        animation: dash 4s linear infinite;
+      }
+      .glow-line-2 {
+        stroke-dasharray: 15 150;
+        animation: dash 6s linear infinite reverse;
+      }
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); opacity: 0.4; }
+        50% { transform: scale(1.4); opacity: 0.9; }
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -210; }
+      }
+      .banner-title {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 38px;
+        fill: #ffffff;
+      }
+      .banner-subtitle {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        fill: #00f2fe;
+      }
+      .banner-badge {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        fill: #a0aec0;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="900" height="240" rx="16" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="2"/>
+  
+  <!-- Glowing Ambient Circles -->
+  <circle cx="200" cy="120" r="180" fill="url(#glow)"/>
+  <circle cx="700" cy="120" r="160" fill="url(#glow)"/>
+
+  <!-- Network Circuit Grid Lines (Background Dynamic Elements) -->
+  <g opacity="0.25">
+    <path d="M 50 180 L 150 120 L 280 160 L 400 90 L 550 150 L 700 80 L 850 130" stroke="#00f2fe" stroke-width="1.5" fill="none"/>
+    <path d="M 100 60 L 220 140 L 350 70 L 480 130 L 620 60 L 780 160" stroke="#7f00ff" stroke-width="1.5" fill="none"/>
+    
+    <!-- Moving light pulses on lines -->
+    <path d="M 50 180 L 150 120 L 280 160 L 400 90 L 550 150 L 700 80 L 850 130" stroke="#00f2fe" stroke-width="3" fill="none" class="glow-line"/>
+    <path d="M 100 60 L 220 140 L 350 70 L 480 130 L 620 60 L 780 160" stroke="#e100ff" stroke-width="3" fill="none" class="glow-line-2"/>
+
+    <!-- Nodes -->
+    <circle cx="150" cy="120" r="6" fill="#00f2fe" class="pulse-node"/>
+    <circle cx="280" cy="160" r="5" fill="#7f00ff" class="pulse-node-delayed"/>
+    <circle cx="400" cy="90" r="7" fill="#00f2fe" class="pulse-node"/>
+    <circle cx="550" cy="150" r="5" fill="#e100ff" class="pulse-node-delayed"/>
+    <circle cx="700" cy="80" r="6" fill="#00f2fe" class="pulse-node"/>
+    <circle cx="780" cy="160" r="5" fill="#7f00ff" class="pulse-node"/>
+  </g>
+
+  <!-- Foreground Content Block (Always clear and visible) -->
+  <g transform="translate(50, 0)">
+    <!-- Top Pill / Badge -->
+    <rect x="0" y="42" width="220" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <circle cx="16" cy="56" r="5" fill="#10b981"/>
+    <text x="30" y="65" class="banner-badge">WEB3 INFRASTRUCTURE 2026</text>
+
+    <!-- Main Title -->
+    <text x="0" y="125" class="banner-title">Awesome Blockchain Infrastructure</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="160" class="banner-subtitle">Curated Directory of RPC Access, Node Clients, Load Balancers &amp; Indexers</text>
+    
+    <!-- Decorative underline gradient -->
+    <rect x="0" y="180" width="180" height="4" rx="2" fill="url(#textGrad)"/>
+  </g>
+</svg>
