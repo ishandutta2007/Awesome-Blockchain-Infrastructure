@@ -44,63 +44,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
-- **[Alchemy](https://www.alchemy.com/)**  
-
-  Web3 development platform providing RPC access plus enhanced APIs, Notify, and a large suite of tooling for Ethereum and multi-chain development. Free tier includes 100,000 requests/day and 10 GB storage .
-
-
-
-- **[Infura](https://www.infura.io/)**  
-
-  One of the oldest and most trusted Ethereum RPC providers, owned by Consensys and serving as MetaMask's default backend. Supports 20+ chains including Ethereum, Polygon, Optimism, Arbitrum, and Base. Free tier: 100,000 requests/day and 5 GB storage .
-
-
-
-- **[QuickNode](https://www.quicknode.com/)**  
-
-  Blockchain infrastructure platform supporting 80+ chains with high-performance RPC endpoints. Known for good scalability and reliability .
-
-
-
-- **[Ankr](https://www.ankr.com/)**  
-
-  Blockchain infrastructure provider built around a decentralized physical infrastructure network (DePIN) with a globally distributed node fleet. Offers free tier access .
-
-
-
-- **[Chainstack](https://chainstack.com/)**  
-
-  Multi-chain infrastructure platform supporting 70+ protocols with enterprise-grade deployment control. Features Hybrid Cloud for running dedicated nodes in your own cloud environment .
-
-
-
-- **[Tatum](https://tatum.io/)**  
-
-  Enterprise blockchain infrastructure platform combining RPC access with advanced developer tools including Wallet SDK, Blockchain Data API, and smart wallet solutions. SOC 2 compliant and ISO/IEC 27001:2022 certified . Platform consists of Blockchain Infrastructure, Tatum Platform (Cloud), and Developer Libraries .
-
-
-
-- **[Moralis](https://moralis.io/)**  
-
-  Web3 data platform providing structured, real-time blockchain data APIs across 40+ EVM chains and Solana. SOC 2 Type 2 certified with enterprise-grade security . Offers Onchain Skills for AI agents with 136+ endpoints for blockchain data queries .
-
-
-
-- **[GetBlock](https://getblock.io/)**  
-
-  Web3 infrastructure provider offering RPC access to blockchain networks via JSON-RPC and WebSocket endpoints without running your own nodes .
-
-
-
-- **[Blockdaemon](https://www.blockdaemon.com/)**  
-
-  Enterprise-grade blockchain infrastructure with node management, staking, and institutional-grade security.
-
-
-
-- **[NOWNodes](https://nownodes.io/)**  
-
-  Blockchain node provider offering shared and dedicated nodes with a focus on cost-effective RPC access.
+| Platform | Description | Starting Paid Tier | Free Tier / Free Trial Limit |
+|---|---|---|---|
+| **[Alchemy](https://www.alchemy.com/)** | Web3 development platform providing RPC access plus enhanced APIs, Notify, and developer tooling across Ethereum and multi-chain networks. | $49/month (Growth Tier) or $0.525 / 1M Compute Units (PAYG) | 30,000,000 Compute Units (CUs)/month (300 CUPS throughput) |
+| **[Infura](https://www.infura.io/)** | Consensys-owned Ethereum RPC provider & MetaMask default backend supporting 20+ EVM networks. | $50/month (Developer Plan, 15M credits/day) | 3,000,000 credits/day (~100,000 requests/day, 2,000 credits/sec rate limit) |
+| **[QuickNode](https://www.quicknode.com/)** | High-performance multi-chain RPC infrastructure platform supporting 80+ blockchain protocols. | $49/month (Build Plan, 80M credits) | 10,000,000 API Credits/month (15 RPS throughput limit) |
+| **[Ankr](https://www.ankr.com/)** | DePIN-based multi-chain RPC infrastructure with globally distributed node network. | $10 for 100M credits (PAYG) or $500/month (Subscription) | 200,000,000 API Credits/month (Public RPC available without signup) |
+| **[Chainstack](https://chainstack.com/)** | Multi-chain protocol platform supporting 70+ chains with Hybrid Cloud and dedicated node deployments. | $49/month (Growth Plan, 20M Request Units) | 3,000,000 Request Units (RUs)/month (25 RPS rate limit) |
+| **[Tatum](https://tatum.io/)** | Enterprise Web3 infrastructure platform combining RPC endpoints, Wallet SDK, and Data APIs. | $25/month (Starter Plan, 4M credits/month) | 100,000 lifetime credits (3 RPS rate limit) |
+| **[Moralis](https://moralis.io/)** | Structured, real-time Web3 data APIs & RPC endpoints across 40+ EVM chains and Solana. | $149/month (Starter Plan, 2M Compute Units/month) | 40,000 Compute Units/day (~1,200,000 CUs/month, 1,000 CU/s rate limit) |
+| **[GetBlock](https://getblock.io/)** | Web3 RPC node provider offering JSON-RPC and WebSocket endpoints across 130+ blockchains. | $39/month (Starter Plan, 90M CUs/month) | 50,000 Compute Units/day (~1,500,000 CUs/month, 20 RPS limit) |
+| **[Blockdaemon](https://www.blockdaemon.com/)** | Enterprise-grade blockchain node infrastructure, staking API, and institutional access. | Quote-based by sales (Starter tier includes 65M CUs/month) | 3,000,000 Compute Units/month (5 RPS rate limit, 1 Test Key) |
+| **[NOWNodes](https://nownodes.io/)** | Node provider offering cost-effective shared and dedicated RPC access to multi-chain nodes. | €20/month (~$22/month starting shared plan) | 100,000 RPC requests/month (1 API key included) |
 
 
 
