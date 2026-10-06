@@ -63,6 +63,7 @@ The global **Blockchain Infrastructure & RPC Node Market** is estimated at **~$3
 | **[Tatum](https://tatum.io/)** | Enterprise Web3 infrastructure platform combining RPC endpoints, Wallet SDK, Blockchain Data APIs, and smart contract tools. | **~$10M - $20M Est. Rev** (Series A) | $25/month (Starter Plan, 4M credits/month) | 100,000 lifetime credits (3 RPS rate limit) |
 | **[GetBlock](https://getblock.io/)** | Web3 RPC node provider offering instant JSON-RPC and WebSocket access to 130+ blockchain networks. | **~$5M - $10M Est. Rev** | $39/month (Starter Plan, 90M CUs/month) | 50,000 Compute Units/day (~1,500,000 CUs/month, 20 RPS limit) |
 | **[NOWNodes](https://nownodes.io/)** | Cost-effective shared and dedicated RPC node provider supporting JSON-RPC and WebSocket connections. | **~$1M - $5M Est. Rev** | €20/month (~$22/month starting shared plan) | 100,000 RPC requests/month (1 API key included) |
+| **[LYFTIUM](https://www.lyftium.com/)** | Ethereum Mainnet JSON-RPC priced in requests per minute (rpm). Auth via `X-Api-Key` header only; fail-closed HTTP 503 when the sync tip gate is closed. | **Independent / early-stage** (Polar-billed) | $29/month (100 rpm) · $99/month (500 rpm) · $499/month Enterprise | None (paid only) |
 
 ---
 
